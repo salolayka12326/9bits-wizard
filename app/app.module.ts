@@ -15,6 +15,9 @@ import {CommonModule} from "@angular/common";
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    TopBarComponent,
+    ContentComponent,
+    BottomBarComponent
   ],
   imports: [
     BrowserModule,
