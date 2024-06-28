@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "steps-17-no-standalone": {
+    "9bits-wizards": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/steps-17-no-standalone",
+            "outputPath": "dist/9bits-wizards",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "steps-17-no-standalone:build:production"
+              "buildTarget": "9bits-wizards:build:production"
             },
             "development": {
-              "buildTarget": "steps-17-no-standalone:build:development"
+              "buildTarget": "9bits-wizards:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "steps-17-no-standalone:build"
+            "buildTarget": "9bits-wizards:build"
           }
         },
         "test": {
