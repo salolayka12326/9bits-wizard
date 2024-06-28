@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration=production --base-href=https://salolayka12326.github.io/9bits-wizard/ && npx angular-cli-ghpages --dir=src"
+
   },
   "private": true,
   "dependencies": {
